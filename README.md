@@ -1,5 +1,5 @@
 <h1>To Do List</h1>
-A to do list that can to save notes using the browser cookies and with more options, like to mark a task as completed and delete a task, if you want. In the future I intend to increase a functionality to edit tasks.
+A to do list that can to save notes using the browser cookies and with more options, like to mark a task as completed and delete a task, if you want. In the future I intend to add a functionality to edit tasks.
 
 <h1>Screenshot</h1>
 
