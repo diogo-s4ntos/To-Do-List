@@ -5,5 +5,5 @@ A to do list that can to save notes using the browser cookies and with more opti
 
 ![to-do-list](https://github.com/diogo-s4ntos/To-Do-List/assets/117995697/5e5f829b-7ec1-4d32-997b-1fb52727feb6)
 
-<h1>List</h1>
+<h1>Link</h1>
 <li>Live site URL: <a href="">Click Here</a></li>
