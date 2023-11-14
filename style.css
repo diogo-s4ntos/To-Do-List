@@ -170,7 +170,7 @@ ul::-webkit-scrollbar-thumb
 
 @media screen and (max-height: 900px)
 {
-    input
+    #input-note
     {
     padding: 1rem .5rem;
     }
