@@ -1,0 +1,169 @@
+:root
+{
+    --primary: #202124;
+    --purpel: #8515c1;
+    --purpel-2: #4c067182;
+    --white: #fff;
+}
+
+body
+{
+    margin: 0rem;
+    padding: 0rem;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--primary);
+}
+
+#page
+{
+    width: 100%;
+    height: 100lvh;
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1
+{
+    color: transparent;
+    -webkit-text-stroke: 2px var(--purpel);
+    text-shadow: 0px 0px 10px var(--purpel-2);
+    font-size: 3.5rem;
+    margin: 0rem 0rem 2.5rem 0rem;
+}
+
+#container
+{
+    width: 780px;
+    max-width: 95%;
+    height: 82lvh;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 
+        1fr;
+    grid-template-rows:
+        repeat(6, 1fr);
+}
+
+#input-box
+{
+    grid-row: span 1;
+    padding: 2rem;
+    font-size: 1.2rem;
+    background-color: var(--purpel-2);
+    border: 2px solid var(--purpel);
+    border-radius: 15px;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 
+        repeat(5, 1fr);
+}
+
+input
+{
+    grid-column: span 4;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 0rem .5rem;
+}
+
+#new-note
+{
+    color: var(--white);
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--primary);
+    cursor: pointer;
+}
+
+#new-note:hover
+{
+    background-color: var(--purpel);
+}
+
+#note-box
+{
+    grid-row: span 5;
+    background-color: var(--purpel-2);
+    border: 2px solid var(--purpel);
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 92%;
+    padding: 0rem 1.8rem;
+    gap: 6px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+ul::-webkit-scrollbar
+{
+    width: 12px;
+}
+
+ul::-webkit-scrollbar-track
+{
+    background-color: transparent;
+}
+
+ul::-webkit-scrollbar-thumb
+{
+    background-color: transparent;
+    border-radius: 6px;
+}
+
+.note
+{
+    position: relative;
+    font-size: 18px;
+    color: var(--white);
+    padding: 20px;
+    width: calc(100% - 2rem);
+    border: 2px solid var(--purpel);
+    border-radius: 15px;
+    display: flex;
+}
+
+.lixo
+{
+    position: absolute;
+    right: 15px;
+    top: 19px;
+    width: 25px;
+    height: 25px;
+    background: transparent;
+    background-image: url(assets/lixo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+.check
+{
+    appearance: none;
+    position: absolute;
+    right: 42px;
+    width: 20px;
+    height: 20px;
+    background-color: var(--primary);
+    border: 1.5px solid var(--white);
+    border-radius: 50%;
+    cursor: pointer;
+}
