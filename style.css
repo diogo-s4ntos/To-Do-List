@@ -167,3 +167,11 @@ ul::-webkit-scrollbar-thumb
     border-radius: 50%;
     cursor: pointer;
 }
+
+@media screen and (max-height: 900px)
+{
+    input
+    {
+    padding: 1rem .5rem;
+    }
+}
